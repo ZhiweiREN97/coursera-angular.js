@@ -11,7 +11,7 @@
     </style>
   </head>
 <body ng-app = "LunchCheck">
-   <div class="container">
+   <div ng-controller="LunchCheckController" class="container">
      <h1>Lunch Checker</h1>
      <p ng-show="{{lunchItems === undefined}}">
       $scope.lunchItems is undefined.
