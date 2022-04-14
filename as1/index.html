@@ -13,9 +13,7 @@
 <body ng-app = "LunchCheck">
    <div ng-controller="LunchCheckController" class="container">
      <h1>Lunch Checker</h1>
-     <p ng-show="{{lunchItems === undefined}}">
-      $scope.lunchItems is undefined.
-     </p>
+
          <div class="form-group">
              <input id="lunch-menu" type="text" ng-model="lunchItems" 
              placeholder="list comma separated dishes you usually have for lunch"
